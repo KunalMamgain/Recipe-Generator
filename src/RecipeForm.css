@@ -1,0 +1,36 @@
+.RecipeForm {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.RecipeForm h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.RecipeForm__textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    resize: vertical;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-right: 0;
+  }
+  
+.RecipeForm__generated-line {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.RecipeForm__heading{
+  text-align: center;
+}
