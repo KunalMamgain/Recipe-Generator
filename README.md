@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Recipe Generate React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Recipe Generate React App Demo](gif_recipe.gif)
 
-## Available Scripts
+The Recipe Generate React App is a web application that uses OpenAI's API to generate recipe ideas for users based on their preferences. The app is built with React and offers customization options for users.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+To install the Recipe Generate React App, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository: `git clone https://github.com/KunalMamgain/Recipe-Generator`
+2. Navigate to the project directory: `cd Recipe-Generator`
+3. Install dependencies: `npm install`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+To use the Recipe Generate React App, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Start the development server: `npm start`
+2. Open the app in your web browser at `http://localhost:3000`
+3. Input your desired ingredients or dietary preferences into the app
+4. Click the "Generate Recipes" button to see a list of recipe ideas
 
-### `npm run build`
+## Customization
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Recipe Generate React App can be customized to fit your specific needs. Here are a few customization options:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Modify the app's styling by editing the `src/App.css` file
+- Change the API key used by the app by modifying the `REACT_APP_OPENAI_API_KEY` environment variable in the `.env` file
+- Add new features or functionality to the app by editing the `src/App.js` file
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions to the Recipe Generate React App are welcome! To contribute, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork the repository
+2. Create a new branch: `git checkout -b my-new-branch`
+3. Make your changes and commit them: `git commit -am 'Add some feature'`
+4. Push your changes to your fork: `git push origin my-new-branch`
+5. Create a pull request
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The Recipe Generate React App is licensed under the MIT License. See `LICENSE` for more information.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
